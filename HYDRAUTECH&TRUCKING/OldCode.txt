@@ -1,0 +1,262 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hydrautech — Marine, Construction & Trucking</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="HYDRAUTECH.css">
+</head>
+<body>
+
+ HEADER 
+<header class="header" id="header">
+  <div class="container nav">
+    <a href="#home" class="logo">
+      <span class="logo-mark">H</span>
+      <span>HYDRAUTECH</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="burger" id="burger">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+ HERO 
+<section id="home" class="hero">
+  <div class="hero-bg">
+    <div class="hero-circle c1"></div>
+    <div class="hero-circle c2"></div>
+    <div class="hero-grid"></div>
+  </div>
+  <div class="container hero-content">
+    <div class="hero-badge">Est. Philippines</div>
+    <h1>Engineering <span>Strength.</span><br>Delivering Excellence.</h1>
+    <p>Marine · Construction · Trucking Solutions You Can Trust</p>
+    <div class="hero-btns">
+      <a href="#services" class="btn-primary">Our Services</a>
+      <a href="#contact" class="btn-ghost">Contact Us</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-dot"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+ ABOUT 
+<section id="about" class="section about">
+  <div class="container">
+    <div class="section-label">Who We Are</div>
+    <div class="about-grid">
+      <div class="about-text">
+        <h2>A Trusted Partner in Marine &amp; Industrial Services</h2>
+        <p>Hydrautech is a premium service provider specializing in marine engineering, construction, and logistics. We combine technical expertise with modern solutions to deliver dependable results for every client.</p>
+        <p>With years of hands-on experience, our team is equipped to handle complex projects across sectors — ensuring safety, quality, and efficiency at every step.</p>
+        <div class="about-stats">
+          <div class="stat-item">
+            <strong>500+</strong>
+            <span>Projects Done</span>
+          </div>
+          <div class="stat-item">
+            <strong>15+</strong>
+            <span>Years Experience</span>
+          </div>
+          <div class="stat-item">
+            <strong>200+</strong>
+            <span>Clients Served</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-visual">
+        <div class="visual-card vc-main">
+          <div class="vc-icon">⚓</div>
+          <h4>Marine Engineering</h4>
+          <p>Expert repair &amp; supply for vessels of all types</p>
+        </div>
+        <div class="visual-card vc-secondary">
+          <div class="vc-icon">🏗️</div>
+          <h4>Construction</h4>
+          <p>Built to last with precision and care</p>
+        </div>
+        <div class="visual-card vc-third">
+          <div class="vc-icon">🚛</div>
+          <h4>Trucking</h4>
+          <p>Reliable freight across every route</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+SERVICES 
+<section id="services" class="section services">
+  <div class="container">
+    <div class="section-label light">What We Offer</div>
+    <h2 class="services-title">Our <em>Services</em></h2>
+
+    Marine 
+    <div class="service-block">
+      <div class="service-block-header">
+        <div class="service-num">01</div>
+        <div>
+          <h3>Marine Services &amp; Supplies</h3>
+          <p>Complete marine solutions from spare parts to full ship repair</p>
+        </div>
+      </div>
+      <div class="service-pills">
+        <span>Spare Parts (Engine &amp; Deck)</span>
+        <span>Cabin Store</span>
+        <span>Deck Stores</span>
+        <span>Engine Stores</span>
+        <span>Provisions Supply</span>
+      </div>
+      <div class="service-cards-row">
+        <div class="scard">
+          <div class="scard-icon">🔩</div>
+          <h4>Steel Renewal</h4>
+        </div>
+        <div class="scard">
+          <div class="scard-icon">🛠️</div>
+          <h4>Pipeline Renewal</h4>
+        </div>
+        <div class="scard">
+          <div class="scard-icon">⚙️</div>
+          <h4>Engine Overhauling</h4>
+        </div>
+        <div class="scard">
+          <div class="scard-icon">⚡</div>
+          <h4>Electrical Jobs</h4>
+        </div>
+        <div class="scard">
+          <div class="scard-icon">🔧</div>
+          <h4>Windlass Repair</h4>
+        </div>
+        <div class="scard">
+          <div class="scard-icon">💧</div>
+          <h4>Pump Overhauling</h4>
+        </div>
+      </div>
+    </div>
+
+    Construction 
+    <div class="service-block">
+      <div class="service-block-header">
+        <div class="service-num">02</div>
+        <div>
+          <h3>Construction Services</h3>
+          <p>High-quality construction built with durability and safety standards</p>
+        </div>
+      </div>
+      <div class="service-pills">
+        <span>Structural Works</span>
+        <span>Civil Construction</span>
+        <span>Renovation</span>
+        <span>Project Management</span>
+      </div>
+    </div>
+
+     Trucking 
+    <div class="service-block">
+      <div class="service-block-header">
+        <div class="service-num">03</div>
+        <div>
+          <h3>Trucking Services</h3>
+          <p>Fast, secure, and reliable cargo transportation you can count on</p>
+        </div>
+      </div>
+      <div class="service-pills">
+        <span>Cargo Transport</span>
+        <span>Heavy Haul</span>
+        <span>Freight Logistics</span>
+        <span>On-Time Delivery</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+CONTACT 
+<section id="contact" class="section contact">
+  <div class="container">
+    <div class="section-label">Reach Us</div>
+    <h2>Contact <em>Information</em></h2>
+    <p class="contact-sub">We're ready to assist you. Reach out through any of the channels below.</p>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="contact-icon">📍</div>
+        <div class="contact-detail">
+          <label>Office Address</label>
+          <span>Sample Address, Philippines</span>
+        </div>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">📞</div>
+        <div class="contact-detail">
+          <label>Phone / Mobile</label>
+          <span>+63 912 345 6789</span>
+        </div>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">✉️</div>
+        <div class="contact-detail">
+          <label>Email Address</label>
+          <span>contact@hydrautech.com</span>
+        </div>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">🌐</div>
+        <div class="contact-detail">
+          <label>Website</label>
+          <span>www.hydrautech.com</span>
+        </div>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">🕐</div>
+        <div class="contact-detail">
+          <label>Business Hours</label>
+          <span>Mon – Sat: 8:00 AM – 5:00 PM</span>
+        </div>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">📠</div>
+        <div class="contact-detail">
+          <label>Fax</label>
+          <span>+63 000 000 0000</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+FOOTER 
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="logo-mark">H</span>
+      <div>
+        <div class="footer-name">HYDRAUTECH</div>
+        <div class="footer-tagline">Marine · Construction · Trucking</div>
+      </div>
+    </div>
+    <nav class="footer-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <p class="footer-copy">© 2026 Hydrautech. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script src="HYDRAUTECH.js"></script>
+</body>
+</html> 
+     -->
