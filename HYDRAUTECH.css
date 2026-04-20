@@ -79,6 +79,9 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 14px 0;
+
+  flex-wrap: wrap;
+   
 }
 
 .logo {
