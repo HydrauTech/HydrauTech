@@ -56,6 +56,24 @@ body {
   box-shadow: var(--shadow);
 }
 
+
+
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+
+
+
 .nav {
   display: flex;
   justify-content: space-between;
